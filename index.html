@@ -4,59 +4,169 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio Victor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
 </head>
 <body>
-   <Header>
-    <nav>
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#My Skills">My Skills</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact me">Contact me</a></li>
-        </ul>
+   <header class="header" id="header">
+    
+    <nav class="navbar">
+        <a href="#home">Home</a></li>
+        <a href="#skills">My Skills</a></li>
+        <a href="#projects">Projects</a></li>
+        <a href="#contactMe">Contact me</a></li>
     </nav>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
    </Header>
 
 
-<main>
+    <main id="main">
 
-</main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, I am</h3>
+                <h1>Victor Eduardo</h1>
+                <p>
+                    I'm a UX and UI designer who loves create, research and develop beautiful and functional 
+                    products so that the widest range of users can enjoy a friendly and efficient interface.
+                </p>
+                
+                <p>
+                    Currently I'm currently still studying so that i can further improve my skills.
+                    My main development tool is figma.
+                </p>
 
-<section class="" id="My Skills">
-    <div>
-        <article>
-           <h3> Skills </h3>
-           <p>Area para demonstrar as habilidades desenvolvidas por cursos ou experiencias de victor eduardo</p>
-        </article>
-    </div>    
-</section>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-behance'></i></a>
+                    <a href="https://www.linkedin.com/in/victoreduardo-21/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/vikki-ctrl" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
 
-<section class="" id="Projects">
-    <div>
-        <Article>
-            <h3> My projects </h3>
-            <p>Area para demonstrar as experiencias anteriores de projetos desenvolvidos por victor eduardo</p>
-        </Article>
-    </div>
-</section>
+                <a href="#" class="btn">Download CV</a>
+            </div>
 
-<section class="" id="Contact me">
-    <div>
-        <Article>
-            <h3> Contact me </h3>
-            <p>Area para possivel contato com victor edauardo</p>
-        </Article>
-    </div>    
-</section>
+            <div class="home-img">
+                <img src="images/home.png" alt="">
+            </div>
+        </section>
 
-<footer class="footer">
-    <p>&copy; 2024 Victor Eduardo</p>
-    <p>(Projeto do curso desenvolvimento web - Coder House)</p>
-</footer>
+    </main>
 
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>skills</span></h2>
 
+        <div class="skills-container">
 
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.
+                </p>
+                <a href="#" class="btn">More</a>
+            </div>
 
+            <div class="skills-box">
+                <i class='bx bxs-paint'></i>
+                <h3>UI/UX Design</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.
+                </p>
+                <a href="https://www.coderhouse.com/br/certificados/65c174712f440f570f69f6aa?lang=en" target="_blank" class="btn">More</a>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxs-paint'></i>
+                <h3>UX/UI Advanced</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
+                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.
+                </p>
+                <a href="https://www.coderhouse.com/br/certificados/6682a74ecc76ff9ebe049a24?lang=en" target="_blank" class="btn">More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box"> 
+                <img src="imagens/ECO LEON.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>App Design</h4>
+                    <p>
+                        App criado para incentivar e auxiliar no processo de reciclagem dos moradores de São Paulo.
+                    </p>
+                    <a href="https://gamma.app/docs/ECO-LEON-ENG-0oggsau3vvbcm5t" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="imagens/Redesign website.png" alt="">
+
+                <div class="projects-layer">
+                    <h4>Re-Design</h4>
+                    <p>
+                        Re-design realizado para o site de compras de ingressos online "eventim" afim de melhorar
+                        a experiencia do usuario. 
+                    </p>
+                    <a href="https://gamma.app/docs/ReEventim-ENG-tkcj0aqpyf1wuqw" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="projects-layer">
+                    <h4>Web Design</h4>
+                    <p>
+                        In this project the site Portifolio has been created.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contactMe" id="contactMe">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <footer class="footer" id="footer">
+
+        <p>&copy; 2024 Victor Eduardo</p>
+        <p>(Projeto do curso desenvolvimento web - Coder House)</p>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="java/java.js"></script>
 
 </body>
 </html>
